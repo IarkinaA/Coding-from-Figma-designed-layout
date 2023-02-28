@@ -1,0 +1,182 @@
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            
+            body {
+                font-family: 'Roboto', sans-serif;
+                font-size: 16px;
+                font-weight: 300;
+                color: #000000;
+                background-color: #FFFFFF;
+                /* Границы сайта на веб-странице */
+                max-width: 1172px;
+                width: 100%;
+                margin: 0 auto;
+            }
+            
+            .header {
+                display: flex;
+                justify-content: space-between;
+                padding: 26px 0 48px 0;
+                margin: 14px 0 21px 0;
+            }
+            
+            .top_logotype {
+                max-width: 137px;
+            }
+            
+            .nav_links {
+                list-style: none;
+                font-size: 14px;
+                line-height: 16px;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                gap: 32px;
+            }
+            
+            a {
+                text-decoration: none;
+                color: #000000;
+            }
+            
+            .nav_btn_start {
+                display: block;
+                border: none;
+                max-width: 120px;
+                width: 100%;
+                padding: 12px 27px;
+                box-sizing: border-box;
+                background: #F25822;
+                border-radius: 40px;
+                font-size: 12px;
+                line-height: 14px;
+                color: #FFFFFF;
+            }
+            
+            .nav_btn_start:hover {
+                color: #000000;
+            }
+            
+            .nav_btn_start:active {
+                color: #000000;
+                background-color: #a53b15;
+            }
+            
+            .nav_color_red {
+                color: #F25822;
+            }
+            
+            .nav_color_red:hover {
+                opacity: 0.5;
+            }
+            
+            .nav_color_red:active {
+                color: #000000;
+            }
+            
+            .nav_links_menu:hover {
+                opacity: 0.5;
+            }
+            
+            .nav_links_menu:active {
+                color: #F25822;
+            }
+            /* ================Header END =================*/
+            /* =================Content body============== */
+            
+            .content_wrp {
+                margin: 0 0 97px 0;
+                display: flex;
+                gap: 13px;
+                text-align: left;
+            }
+            
+            .content_info {
+                max-width: 522px;
+                width: 100%;
+            }
+            
+            .content_title {
+                margin: 0 0 17px 0;
+                font-size: 60px;
+                line-height: 70px;
+                font-weight: 500;
+            }
+            
+            .content_paragraph {
+                max-width: 466px;
+                width: 100%;
+                margin: 0 0 16px 0;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 23px;
+                color: #888888;
+            }
+            
+            .content_btn_start_watch {
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                gap: 27px;
+            }
+            
+            .content_btn_start {
+                display: block;
+                border: none;
+                max-width: 140px;
+                width: 100%;
+                padding: 15px 35px;
+                box-sizing: border-box;
+                background: #F25822;
+                box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+                border-radius: 50px;
+                font-size: 15px;
+                line-height: 18px;
+                color: #FFFFFF;
+            }
+            
+            .content_btn_start:hover {
+                color: #000000;
+            }
+            
+            .content_btn_start:active {
+                color: #000000;
+                background-color: #a53b15;
+            }
+            
+            .content_btn_watch {
+                display: block;
+                border: none;
+                max-width: 90px;
+                width: 100%;
+                font-size: 15px;
+                line-height: 18px;
+                color: #AAAAAA;
+                font-weight: 500;
+                background-color: #FFFFFF;
+            }
+            
+            .content_btn_watch:hover {
+                color: #000000;
+            }
+            
+            .content_pic {
+                width: 544px;
+                height: 374px;
+            }
+            
+            content_pic img {
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+            
+            .footer_logos_list {
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                gap: 40px;
+            }
